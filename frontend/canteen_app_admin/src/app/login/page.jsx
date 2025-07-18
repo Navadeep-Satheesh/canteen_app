@@ -58,10 +58,10 @@ export default function AdminLogin() {
               <Shield className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-2">
-              Admin Portal
+              Canteen Admin Portal
             </h2>
             <p className="text-gray-500 text-sm">
-              Secure access to your dashboard
+              access to canteen admin portal
             </p>
           </div>
 
