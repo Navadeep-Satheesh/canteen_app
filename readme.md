@@ -38,7 +38,6 @@ A modern full-stack web application to manage and automate meal booking and deli
 ### 🎓 Student Dashboard
 ![Student Dashboard](./student_dashboard.png)
 
-
 ### 🍳 Admin Dashboard
 ![Admin Dashboard](./admin_dashboard.png)
 
