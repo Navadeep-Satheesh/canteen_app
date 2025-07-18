@@ -30,19 +30,19 @@ A modern full-stack web application to manage and automate meal booking and deli
 
 
 ### 🎓 Student Login
-![Student Dashboard](./students_canteen_login.png)
+![Student Login](./students_canteen_login.png)
 
 ### 🎓 Student Register
-![Student Dashboard](./students_canteen_register.png)
+![Student Register](./students_canteen_register.png)
 
 ### 🎓 Student Dashboard
 ![Student Dashboard](./student_dashboard.png)
 
-### 🎓 Student Dashboard
-![Student Dashboard](./students_past_orders.png)
+### 🎓 Student Past Orders
+![Student Past orders](./students_past_orders.png)
 
-### 🍳 Admin Dashboard
-![Admin Dashboard](./canteen_admin_login.png)
+### 🍳 Admin Login
+![Admin Login](./canteen_admin_login.png)
 
 ### 🍳 Admin Dashboard
 ![Admin Dashboard](./admin_dashboard.png)
@@ -75,3 +75,15 @@ A modern full-stack web application to manage and automate meal booking and deli
 cd frontend
 npm install
 npm run dev
+```
+
+## Database Schema 
+
+### Student Schema
+![Student Dashboard](./student_schema.png)
+
+### Orders Schema
+![Student Dashboard](./admin_schema.png)
+
+### ADmin Schema
+![Student Dashboard](./orders_schema.png)
