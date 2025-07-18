@@ -3,6 +3,7 @@ from flask_cors import CORS
 import mysql.connector
 import jwt
 import datetime
+import random
 
 app = Flask(__name__)
 CORS(app)
@@ -219,7 +220,8 @@ def create_booking():
             INSERT INTO orders (student_id, otp, status, date, type)
             VALUES (%s, %s, %s, %s, %s)
         """
-        otp = "123456"  # Generate proper OTP in production
+        # otp = "123456"  # Generate proper OTP in production
+        otp = str(random.randint(100000, 999999))
         status = "booked"
         cursor.execute(insert, (student_id, otp, status, now, meal_type))
         conn.commit()

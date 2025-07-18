@@ -48,6 +48,7 @@ export default function AdminDashboard() {
 
         if (res.ok) {
           const data = await res.json();
+          console.log(data)
           const grouped = {
             breakfast: data.filter((o) => o.type === "lunch"),
             lunch: data.filter((o) => o.type === "tea"),
@@ -94,6 +95,8 @@ export default function AdminDashboard() {
       });
 
       const result = await res.json();
+
+      
 
       if (res.ok) {
         setStatusMsg("✅ Order marked as served!");
@@ -210,23 +213,25 @@ export default function AdminDashboard() {
                         <div className="space-y-3 flex-1">
                           <div className="flex items-center space-x-2">
                             <User className="w-4 h-4 text-gray-500" />
-                            <span className="font-semibold text-gray-800">{order.studentName}</span>
+                            <span className="font-semibold text-gray-800">{order.student_name}</span>
                           </div>
                           
                           <div className="flex items-center space-x-2">
                             <Hash className="w-4 h-4 text-gray-500" />
                             <span className="text-gray-600 font-mono text-sm">
-                              {showOtp[order._id] ? order.otp : '••••••'}
+                              {/* {showOtp[order._id] ? order.otp : '••••••'} */}
                             </span>
                             <button
-                              onClick={() => toggleOtpVisibility(order._id)}
+                              onClick={() => toggleOtpVisibility(order.order_id)}
                               className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
                             >
-                              {showOtp[order._id] ? (
+                              {/* {showOtp[order._id] ? (
                                 <EyeOff className="w-4 h-4" />
                               ) : (
                                 <Eye className="w-4 h-4" />
-                              )}
+                              )} */}
+                              <span className="font-semibold text-gray-800">{order.order_id}</span>
+
                             </button>
                           </div>
 
