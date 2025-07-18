@@ -30,25 +30,25 @@ A modern full-stack web application to manage and automate meal booking and deli
 
 
 ### 🎓 Student Login
-![Student Login](./students_canteen_login.png)
+![Student Login](./images/students_canteen_login.png)
 
 ### 🎓 Student Register
-![Student Register](./students_canteen_register.png)
+![Student Register](./images/students_canteen_register.png)
 
 ### 🎓 Student Dashboard
-![Student Dashboard](./student_dashboard.png)
+![Student Dashboard](./images/student_dashboard.png)
 
 ### 🎓 Student Past Orders
-![Student Past orders](./students_past_orders.png)
+![Student Past orders](./images/students_past_orders.png)
 
 ### 🍳 Admin Login
-![Admin Login](./canteen_admin_login.png)
+![Admin Login](./images/canteen_admin_login.png)
 
 ### 🍳 Admin Dashboard
-![Admin Dashboard](./admin_dashboard.png)
+![Admin Dashboard](./images/admin_dashboard.png)
 
 ### 🔐 OTP Confirmation
-![Admin OTP Confirmation](./admin_dashboard_otp.png)
+![Admin OTP Confirmation](./images/admin_dashboard_otp.png)
 
 ---
 
@@ -80,10 +80,10 @@ npm run dev
 ## Database Schema 
 
 ### Student Schema
-![Student Dashboard](./student_schema.png)
+![Student Dashboard](./images/student_schema.png)
 
 ### Orders Schema
-![Student Dashboard](./admin_schema.png)
+![Student Dashboard](./images/admin_schema.png)
 
-### ADmin Schema
-![Student Dashboard](./orders_schema.png)
+### Admin Schema
+![Student Dashboard](./images/orders_schema.png)
