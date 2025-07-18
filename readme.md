@@ -38,6 +38,9 @@ A modern full-stack web application to manage and automate meal booking and deli
 ### 🎓 Student Dashboard
 ![Student Dashboard](./student_dashboard.png)
 
+### 🎓 Student Dashboard
+![Student Dashboard](./students_past_orders.png)
+
 ### 🍳 Admin Dashboard
 ![Admin Dashboard](./canteen_admin_login.png)
 
