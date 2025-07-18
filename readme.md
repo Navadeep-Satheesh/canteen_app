@@ -8,49 +8,57 @@ A modern full-stack web application to manage and automate meal booking and deli
 
 ### 👨‍🎓 Student Interface
 - 🔐 **Login with JWT authentication**
-- 📅 **Book meals** (breakfast, lunch, dinner)
-- 🔁 **Cancel bookings** anytime before the meal
-- 🧾 **View order history** (/orders page)
-- 🧠 **OTP-based meal collection**
-- ⏱️ **Live feedback after booking/cancellation**
+- 📅 **Book meals** (Breakfast, Lunch, Dinner)
+- ❌ **Cancel bookings** anytime before the meal time
+- 🧾 **View order history** (`/orders` page)
+- 🔢 **OTP-based meal collection** with real-time verification
+- ✅ **Live feedback** after booking/cancellation
 
 ### 🧑‍🍳 Canteen Admin Interface
-- **Dashboard** with all orders separated by meal
-- **Show/hide sections** dynamically
-- **Confirm meal serving** using OTP
-- **Statistics page**:
-  - Monthly food consumption for each meal
+- 📊 **Dashboard** with meals separated into sections
+- 👁️ **Show/Hide meal sections** dynamically
+- ✅ **Confirm meal delivery** using OTP verification
+- 📈 **Statistics Page** with:
+  - Monthly food consumption (by meal)
   - Weekly consumption
   - Average daily and monthly trends
-  - All data represented using bar/line graphs
+  - Clean, interactive **bar and line graphs**
+
+---
+
+## 📸 Screenshots
+
+### 🎓 Student Dashboard
+![Student Dashboard](./student_dashboard.png)
+
+### 🍳 Admin Dashboard
+![Admin Dashboard](./admin_dashboard.png)
+
+### 🔐 OTP Confirmation
+![Admin OTP Confirmation](./admin_dashboard_otp.png)
 
 ---
 
 ## ⚙️ Tech Stack
 
 ### Frontend
-- **Next.js 15+**
-- **Tailwind CSS**
-- **Chart.js** (via `react-chartjs-2`)
-- **Fetch API** for all requests (No Axios)
+- [Next.js 15+](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Chart.js](https://www.chartjs.org/) (via `react-chartjs-2`)
+- Native **Fetch API** (no Axios)
 
 ### Backend
-- **Flask**
-- **JWT Authentication**
-- **MySQL** (via MySQL Connector)
+- [Flask](https://flask.palletsprojects.com/)
+- [MySQL](https://www.mysql.com/) with MySQL Connector
+- [PyJWT](https://pyjwt.readthedocs.io/en/stable/) for authentication
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### frontend setup
+### ✅ Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
-
-### Backend Setup
-
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
